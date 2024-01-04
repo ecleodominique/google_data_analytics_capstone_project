@@ -2,7 +2,7 @@
 
 This project is part of the Google Data Analytics Professional Certification Course. Its purpose is to demonstrate the application of skills acquired during the course, including formulating SMART questions, employing structured thinking, managing data, cleaning data, and conducting data analysis and visualization.
 
-The analysis of this case study will adhere to a structured methodology, following chronological phases: ask, prepare, process, analyze, share and act phase.
+The analysis of this case study will adhere to a structured methodology, following chronological phases: ***ask, prepare, process, analyze, share and act phase.***
 
 ![bike_sharing](images/bike-sharing-4196725_1280.jpg)
 
@@ -76,8 +76,38 @@ Here are the steps that I did during this phase
 2.	Additional columns and data transformation (change the data type, remove trailing or leading spaces, etc.)
 3.	Extract data for analysis
 
+### Data Cleaning Result
+Total Row Count before data cleaning: 5,677,610
+
+Total Row Count before data cleaning: 4,212,292
+
 ##  Phase 4: Analyze
 >During this phase, we employ tools capable of formatting, transforming, filtering, and sorting our data. This enables us to recognize patterns, make predictions, draw conclusions, and provide recommendations, facilitating the formulation of data-driven decisions.
+
+I used Python in Google Colab to look at a huge data we cleaned earlier. I came up with questions to figure out how casual riders are different from annual members. Then, I made queries to get the answers, helping us understand more and make decisions based on the data.
+
+### Questions
+Here are the following questions we will answer in this phase:
+1.	What is the percentage of user types from total users?
+2.	Is there a bike type preferred by different user types?
+3.	Which bike type has the longest trip duration between users?
+4.	What is the average trip duration per user type?
+5.	What is the average distance traveled per user type?
+6.	What days are most users active?
+7.	What months or seasons of the year users tend to use the bike-sharing service?
+8.	Which user type has the greatest number of Round trip and One-way trip routes taken?
+
+You can view the Jupyter Notebook for the Analyze phase [here](https://github.com/ecleodominique/google_data_analytics_capstone_project/blob/main/04_Analyze.ipynb).
+
+### Findings
+* 64% of the total Cyclistic users are annual members while 36% are casual riders.
+* Both annual members and casual riders prefer classic bikes. Only casual riders use docked bikes.
+* Generally, casual riders have the longest average ride duration (23 minutes) compared with annual members (12 minutes).
+* Both annual members and casual riders have almost the same average distance traveled.
+* Docked bikes have the longest average ride duration which only casual riders use. Classic bikes have the longest average ride duration for annual members.
+* Most trips are recorded on Saturday.
+* There are more trips during summer and at least during winter.
+* Annual members prefer one-way trips while casual riders prefer round trips.
 
 ## Phase 5: Share
 >In this phase, we will use visualization to communicate and tell a data-driven story.
@@ -95,7 +125,7 @@ These visualizations are arranged to narrate a compelling story, providing a cle
 ***Ride Duration and Distance Traveled***
 <p align="center"><img src="images/02ride_duration_distance.png" height=400>
 
-Casual riders have a significantly longer average ride duration (23 minutes) compared to annual members (12 minutes). However, both groups have similar average distances traveled.
+Generally, casual riders have the longest average ride duration (23 minutes) compared to annual members (12 minutes). However, both groups have similar average distances traveled.
 
 ***Bike Preference***
 <p align="center"><img src="images/03bike_pref.png" height=400>
@@ -122,8 +152,18 @@ The popular end stations are the same as popular start stations. Same as the sta
 
 Round trip routes are dominated by casual riders, while one-way trip routes are dominated by annual members.
 
+### Conclusions
+*
+
 ## Phase 6: Act
 >In this final phase, we utilize our insights to make decisions aimed at addressing the problems identified during the ask phase. The actions we take may involve modifying existing products/services or creating new ones.
 
+### Recommendations
+* Given the company's goal of maximizing annual memberships, design marketing campaigns that specifically target casual riders, emphasizing the benefits of annual memberships, such as cost savings and convenience.
+* Since classic bikes are preferred by both groups, promote the advantages of using classic bikes for various purposes. Consider incentives or promotions for members who exclusively use classic bikes.
+* Capitalize on the peak in summer usage by launching targeted marketing campaigns during this season. Highlight the pleasant weather and ideal biking conditions. Consider seasonal promotions or partnerships.
+* Explore the possibility of offering more flexible membership options (such as membership during summer and weekend membership) to cater to the diverse usage patterns observed.
+* Implement advertisements at popular stations, especially those near coastlines and parks. Tailor these promotions to attract both casual riders and potential annual members.
+ 
 
 
