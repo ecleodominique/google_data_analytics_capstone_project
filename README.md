@@ -69,10 +69,21 @@ Each .csv file contains a table with 13 columns with varying data types as shown
 ## Phase 3: Process 
 >In this phase, we will clean and transform data while maintaining the data’s integrity. Documenting the data-cleaning process is essential to keep track of the changes made to the dataset.
 
-I planned to use Rstudio to combine and clean the dataset. However, RStudio keeps on freezing and I can't proceed with cleaning the dataset. I switched to Python using Google Colab. You can view the Jupyter Notebook for the Process phase [here](https://github.com/ecleodominique/google_data_analytics_capstone_project/blob/main/02%2603_Prepare_and_Process.ipynb)
+I planned to use Rstudio to combine and clean the dataset. However, RStudio keeps on freezing and I can't proceed with cleaning the dataset. I switched to Python using Google Colab. You can view the Jupyter Notebook for the Process phase [here](https://github.com/ecleodominique/google_data_analytics_capstone_project/blob/main/02%2603_Prepare_and_Process.ipynb).
 
 Here are the steps that I did during this phase
 1.	Check for null and duplicates
 2.	Additional columns and data transformation (change the data type, remove trailing or leading spaces, etc.)
 3.	Extract data for analysis
+
+##  Phase 4: Analyze
+>During this phase, we employ tools capable of formatting, transforming, filtering, and sorting our data. This enables us to recognize patterns, make predictions, draw conclusions, and provide recommendations, facilitating the formulation of data-driven decisions.
+
+## Phase 5: Share
+>In this phase, we will use visualization to communicate and tell a data-driven story.
+
+## Phase 6: Act
+>In this final phase, we utilize our insights to make decisions aimed at addressing the problems identified during the ask phase. The actions we take may involve modifying existing products/services or creating new ones.
+
+
 
