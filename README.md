@@ -1,4 +1,4 @@
-# Cyclistic bike-share analysis- a Google Data Analytics Capstone Project (using Python & Tableau)
+# Cyclistic Bike-Share Analysis - Google Data Analytics Capstone Project (using Python & Tableau)
 
 This project is part of the Google Data Analytics Professional Certification Course. Its purpose is to demonstrate the application of skills acquired during the course, including formulating SMART questions, employing structured thinking, managing data, cleaning data, and conducting data analysis and visualization.
 
@@ -81,6 +81,24 @@ Here are the steps that I did during this phase
 
 ## Phase 5: Share
 >In this phase, we will use visualization to communicate and tell a data-driven story.
+
+![user_type](images/01user_type.png)
+
+![ride_duration_distance](images/02ride_duration_distance.png)
+
+![bike_pref](images/03bike_pref.png)
+
+![daily_trend](images/04daily_trend.png)
+
+![seasonal_trend](images/05seasonal_trend.png)
+
+![start_map](images/06amap_start_station.png)
+![start_graph](images/06bstart_station.png)
+
+![end_map](images/07amap_end_station.png)
+![end_graph](images/07bend_station.png)
+
+![route_type](images/08route_type.png)
 
 ## Phase 6: Act
 >In this final phase, we utilize our insights to make decisions aimed at addressing the problems identified during the ask phase. The actions we take may involve modifying existing products/services or creating new ones.
