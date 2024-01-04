@@ -82,23 +82,45 @@ Here are the steps that I did during this phase
 ## Phase 5: Share
 >In this phase, we will use visualization to communicate and tell a data-driven story.
 
-![user_type](images/01user_type.png)
+I used Tableau public in making the visualization. You can view the data visualization for the Share phase [here](https://public.tableau.com/views/Cyclisticbike-share_17042047075070/Story1?:language=en-US&:display_count=n&:origin=viz_share_link).
 
-![ride_duration_distance](images/02ride_duration_distance.png)
+### Data Visualization
+These visualizations are arranged to narrate a compelling story, providing a clear understanding of the analytical process that led to our conclusions.
 
-![bike_pref](images/03bike_pref.png)
+***User Type Breakdown***
+<p align="center"><img src="images/01user_type.png" height=400>
 
+64% of Cyclistic users are annual members, while 36% are casual riders. This suggests that a significant portion of users are already committed annual members.
+
+***Ride Duration and Distance Traveled***
+<p align="center"><img src="images/02ride_duration_distance.png" height=400>
+
+Casual riders have a significantly longer average ride duration (23 minutes) compared to annual members (12 minutes). However, both groups have similar average distances traveled.
+
+***Bike Preference***
+<p align="center"><img src="images/03bike_pref.png" height=400>
+
+Classic bikes are preferred by both annual members and casual riders. Docked bikes are exclusively used by casual riders and have the longest average ride duration.
+
+***Daily Trip Trends***
 ![daily_trend](images/04daily_trend.png)
+Annual members have a higher record of trips during weekdays, indicating a likely use for daily commuting. Casual riders, on the other hand, prefer weekends for bike rides.
 
+***Seasonal / Monthly Trip Trends***
 ![seasonal_trend](images/05seasonal_trend.png)
+Trips peak during summer and decrease as winter approaches possibly due to of good weather & road conditions. Casual riders consistently have a higher average ride duration in all seasons.
 
-![start_map](images/06amap_start_station.png)
-![start_graph](images/06bstart_station.png)
+***Popular Stations***
+![start_station](images/06start_station.png)
+Popular start stations are located near the coastlines and inside the parks throughout Chicago. Those stations are dominated by casual riders.
 
-![end_map](images/07amap_end_station.png)
-![end_graph](images/07bend_station.png)
+![end_station](images/07end_station.png)
+The popular end stations are the same as popular start stations. Same as the start stations, popular end stations are also dominated by casual riders.
 
-![route_type](images/08route_type.png)
+***Route Types***
+<p align="center"><img src="images/08route_type.png" height=400>
+
+Round trip routes are dominated by casual riders, while one-way trip routes are dominated by annual members.
 
 ## Phase 6: Act
 >In this final phase, we utilize our insights to make decisions aimed at addressing the problems identified during the ask phase. The actions we take may involve modifying existing products/services or creating new ones.
