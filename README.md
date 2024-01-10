@@ -153,7 +153,12 @@ The popular end stations are the same as popular start stations. Same as the sta
 Round trip routes are dominated by casual riders, while one-way trip routes are dominated by annual members.
 
 ### Conclusions
-*
+* As 64% of Cyclistic users are annual members, this is already a significant portion that are already committed annual members.
+* Casual riders typically utilize the bike-sharing service for leisurely purposes, as their average journey duration is longer compared to members. Additionally, there is a rise in trips among casual riders on weekends.
+* Casual riders favor round trip routes, and the frequently chosen starting and ending stations are situated in proximity to coastlines and parks, areas associated with leisure.
+* Annual members are inclined to employ the bike-sharing service for their daily commute, as the majority of their trips occur on weekdays and have shorter average trip durations.
+* Summer is the season where trips peak, likely due to favorable weather and road conditions during this season.
+
 
 ## Phase 6: Act
 >In this final phase, we utilize our insights to make decisions aimed at addressing the problems identified during the ask phase. The actions we take may involve modifying existing products/services or creating new ones.
